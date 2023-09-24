@@ -13,6 +13,7 @@
   
 ## Link
   (no deployed page) https://github.com/nomin97/svg-logo
+  video of demonstration https://drive.google.com/file/d/1j0znifDf8k5TEdturrXQXoAag57-Okdi/view
   
 ## Installation 
   First clone the repo and then open in VS Code. Node must be installed, and install inquirer and 'jest' packages. Once package.json in installed, install jest. Once installed, user can run the app with command node index.js. 
