@@ -33,7 +33,7 @@ const questions = [
 
 // function to write to the file using the inquirer  
 function writeToFile(fileName, answers) {
-    // empty string later to have user input
+    // empty string later to have user input write the code
     let svgString = "";
     // Set width and height of logo container
     svgString =
@@ -41,7 +41,7 @@ function writeToFile(fileName, answers) {
     svgString += "<g>";
     // Takes user input for shape choice and inserts it into SVG file
     svgString += `${answers.shape}`;
-    // Conditional check takes users input from choices array and then adds polygon properties and shape color to SVG string
+    // if else statement to take user input and display the chosen properties
     let shapeChoice;
     if (answers.shape === "triangle") {
         shapeChoice = new Triangle();
@@ -73,7 +73,7 @@ function init() {
                 promptUser();
             } else {
                 writeToFile("logo.svg", answers);
-            }         
+            }
         });
 }
 

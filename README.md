@@ -24,7 +24,7 @@
 Testing can be found in the 'lib' folder. 
   
 ## Credits
-  Classwork and tutor Ashton. 
+  Classwork and XPert Learning assistant. 
   
 ## Questions?
   * Email: <nominmyagmarsuren@yahoo.com>
